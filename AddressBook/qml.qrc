@@ -11,5 +11,10 @@
         <file>qml/ContactsModule/Impl/qmldir</file>
         <file>qml/ContactsModule/qmldir</file>
         <file>qml/ContactsModule/Impl/ContactDelegate.qml</file>
+        <file>qml/ContactsModule/Base/ImageBubble.qml</file>
+        <file>qml/ContactsModule/Base/RoundImage.qml</file>
+        <file>qml/ResourceProvider/qmldir</file>
+        <file>qml/ResourceProvider/Resources.qml</file>
+        <file>qml/Resources/download.svg</file>
     </qresource>
 </RCC>

@@ -99,12 +99,17 @@ release/qrc_qml.cpp: ../AddressBook/qml.qrc \
 		../AddressBook/main.qml \
 		../AddressBook/qml/StyleSettings/Style.qml \
 		../AddressBook/qml/StyleSettings/qmldir \
+		../AddressBook/qml/ResourceProvider/Resources.qml \
+		../AddressBook/qml/ResourceProvider/qmldir \
+		../AddressBook/qml/Resources/download.svg \
 		../AddressBook/qml/ContactsModule/qmldir \
 		../AddressBook/qml/ContactsModule/Impl/ContactDelegate.qml \
 		../AddressBook/qml/ContactsModule/Impl/qmldir \
 		../AddressBook/qml/ContactsModule/Impl/ContactsView.qml \
 		../AddressBook/qml/ContactsModule/Base/BaseText.qml \
 		../AddressBook/qml/ContactsModule/Base/BaseListDelegate.qml \
+		../AddressBook/qml/ContactsModule/Base/ImageBubble.qml \
+		../AddressBook/qml/ContactsModule/Base/RoundImage.qml \
 		../AddressBook/qml/ContactsModule/Base/qmldir \
 		../AddressBook/qml/ContactsModule/Base/BaseListView.qml
 	C:\Qt\5.12.5\mingw73_64\bin\rcc.exe -name qml ..\AddressBook\qml.qrc -o release\qrc_qml.cpp
