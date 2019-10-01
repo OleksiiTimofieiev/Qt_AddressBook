@@ -3,6 +3,8 @@ import QtQuick.Window 2.12
 import StyleSettings 1.0
 import ContactsModule.Impl 1.0
 
+// https://www.youtube.com/watch?v=8wj9relIrcs&t=2198s
+
 Window {
     visible: true
     width: 640

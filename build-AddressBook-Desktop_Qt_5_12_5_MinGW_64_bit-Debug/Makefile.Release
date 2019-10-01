@@ -100,6 +100,7 @@ release/qrc_qml.cpp: ../AddressBook/qml.qrc \
 		../AddressBook/qml/StyleSettings/Style.qml \
 		../AddressBook/qml/StyleSettings/qmldir \
 		../AddressBook/qml/ContactsModule/qmldir \
+		../AddressBook/qml/ContactsModule/Impl/ContactDelegate.qml \
 		../AddressBook/qml/ContactsModule/Impl/qmldir \
 		../AddressBook/qml/ContactsModule/Impl/ContactsView.qml \
 		../AddressBook/qml/ContactsModule/Base/BaseText.qml \

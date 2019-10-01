@@ -6,29 +6,23 @@ BaseListView {
     {
         ListElement {
             name: "test1"
-            surname: "test2"
-            phone: "+123412341234"
+            surname: "testing1"
+            phoneNumber: "123412341234"
         }
         ListElement {
             name: "test2"
-            surname: "test2"
-            phone: "+123412341234"
+            surname: "testing2"
+            phoneNumber: "123412341234"
         }
         ListElement {
             name: "test3"
-            surname: "test2"
-            phone: "+123412341234"
+            surname: "testing3"
+            phoneNumber: "123412341234"
         }
-        ListElement {
-            name: "test4"
-            surname: "test2"
-            phone: "+123412341234"
-        }
-        ListElement {
-            name: "test5"
-            surname: "test2"
-            phone: "+123412341234"
-        }
+    }
+    delegate:  ContactDelegate{
+        width: root.width
+        height: 70
     }
 
 }

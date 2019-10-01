@@ -10,5 +10,6 @@
         <file>qml/ContactsModule/Impl/ContactsView.qml</file>
         <file>qml/ContactsModule/Impl/qmldir</file>
         <file>qml/ContactsModule/qmldir</file>
+        <file>qml/ContactsModule/Impl/ContactDelegate.qml</file>
     </qresource>
 </RCC>
