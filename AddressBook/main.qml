@@ -5,6 +5,7 @@ import ContactsModule.Impl 1.0
 
 // https://www.youtube.com/watch?v=8wj9relIrcs&t=2198s
 // 1:35:42
+// https://github.com/smay1613/ITEA-Advanced/tree/master/Lesson7%20(Qt%20MVC)
 
 Window {
     visible: true
