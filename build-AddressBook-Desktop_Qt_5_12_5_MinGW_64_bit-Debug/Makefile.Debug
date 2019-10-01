@@ -99,19 +99,6 @@ debug/qrc_qml.cpp: ../AddressBook/qml.qrc \
 		../AddressBook/main.qml \
 		../AddressBook/qml/StyleSettings/Style.qml \
 		../AddressBook/qml/StyleSettings/qmldir \
-		../AddressBook/qml/ContactsModel/qmldir \
-		../AddressBook/qml/ContactsModel/impl/qmldir \
-		../AddressBook/qml/ContactsModel/impl/ContactsView.qml \
-		../AddressBook/qml/ContactsModel/Impl/qmldir \
-		../AddressBook/qml/ContactsModel/Impl/ContactsView.qml \
-		../AddressBook/qml/ContactsModel/base/BaseText.qml \
-		../AddressBook/qml/ContactsModel/base/BaseListDelegate.qml \
-		../AddressBook/qml/ContactsModel/base/qmldir \
-		../AddressBook/qml/ContactsModel/base/BaseListView.qml \
-		../AddressBook/qml/ContactsModel/Base/BaseText.qml \
-		../AddressBook/qml/ContactsModel/Base/BaseListDelegate.qml \
-		../AddressBook/qml/ContactsModel/Base/qmldir \
-		../AddressBook/qml/ContactsModel/Base/BaseListView.qml \
 		../AddressBook/qml/ContactsModule/qmldir \
 		../AddressBook/qml/ContactsModule/Impl/qmldir \
 		../AddressBook/qml/ContactsModule/Impl/ContactsView.qml \

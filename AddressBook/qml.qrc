@@ -3,19 +3,6 @@
         <file>qml/StyleSettings/Style.qml</file>
         <file>qml/StyleSettings/qmldir</file>
         <file>main.qml</file>
-        <file>qml/ContactsModel/base/qmldir</file>
-        <file>qml/ContactsModel/impl/qmldir</file>
-        <file>qml/ContactsModel/qmldir</file>
-        <file>qml/ContactsModel/base/BaseListView.qml</file>
-        <file>qml/ContactsModel/base/BaseListDelegate.qml</file>
-        <file>qml/ContactsModel/base/BaseText.qml</file>
-        <file>qml/ContactsModel/impl/ContactsView.qml</file>
-        <file>qml/ContactsModel/Base/BaseListDelegate.qml</file>
-        <file>qml/ContactsModel/Base/BaseListView.qml</file>
-        <file>qml/ContactsModel/Base/BaseText.qml</file>
-        <file>qml/ContactsModel/Base/qmldir</file>
-        <file>qml/ContactsModel/Impl/ContactsView.qml</file>
-        <file>qml/ContactsModel/Impl/qmldir</file>
         <file>qml/ContactsModule/Base/BaseListDelegate.qml</file>
         <file>qml/ContactsModule/Base/BaseListView.qml</file>
         <file>qml/ContactsModule/Base/BaseText.qml</file>
