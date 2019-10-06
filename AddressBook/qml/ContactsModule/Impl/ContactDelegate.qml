@@ -20,14 +20,14 @@ BaseListDelegate {
     }
 
     Column {
-        // positioning
+        // positioning:
         anchors.verticalCenter: root.verticalCenter
         anchors.left: _contactBubble.right
         anchors.leftMargin: Style.defaultOffset
 
         Row {
             spacing: Style.smallSpacing
-            // roles
+            // roles:
             BaseText {
                 text: name
             }

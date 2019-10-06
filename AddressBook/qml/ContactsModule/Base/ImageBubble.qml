@@ -13,7 +13,7 @@ Rectangle {
     border.width: 2
     border.color: Style.primaryColor
 
-    Image {
+    RoundImage {
         id: _internalImage
         anchors.fill: root
         anchors.margins: Style.mediumOffset

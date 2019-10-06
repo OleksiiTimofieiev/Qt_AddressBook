@@ -1,5 +1,5 @@
-import QtQuick 2.12
-import QtQuick.Window 2.12
+import QtQuick 2.10
+import QtQuick.Window 2.10
 import StyleSettings 1.0
 import ContactsModule.Impl 1.0
 

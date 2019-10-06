@@ -16,5 +16,6 @@
         <file>qml/ResourceProvider/qmldir</file>
         <file>qml/ResourceProvider/Resources.qml</file>
         <file>qml/Resources/download.svg</file>
+        <file>qml/Resources/pony.jpg</file>
     </qresource>
 </RCC>
