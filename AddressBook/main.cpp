@@ -1,5 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include "contactsmodel.h"
 
 int main(int argc, char *argv[])
 {
@@ -7,9 +8,12 @@ int main(int argc, char *argv[])
 
     QGuiApplication app(argc, argv);
 
+
+
     QQmlApplicationEngine engine;
     // add module
     engine.addImportPath(":/qml");
+    ContactsModel::registerMe("Contacts");
     //
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,

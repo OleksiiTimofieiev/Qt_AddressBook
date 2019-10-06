@@ -8,7 +8,9 @@ class Contact
 {
 public:
     Contact() = default;
-    Contact(QString firstName, QString secondName, QString phone);
+
+    // workaroung for rValue and lValue
+    Contact(const QString & firstName, QString && secondName, QString phone);
 
     QString phone() const;
 

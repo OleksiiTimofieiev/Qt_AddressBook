@@ -3,7 +3,7 @@
 
 
 
-Contact::Contact(const QString & firstName, QString secondName, QString phone)
+Contact::Contact(const QString & firstName, QString && secondName, QString phone)
     : m_phone{std::move(phone)},
       m_firstName{firstName},
       m_surname{std::move(secondName)}

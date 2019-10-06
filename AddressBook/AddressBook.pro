@@ -16,6 +16,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         contact.cpp \
         contactsmodel.cpp \
+        contactsreader.cpp \
         main.cpp
 
 RESOURCES += \
@@ -35,4 +36,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     contact.h \
-    contactsmodel.h
+    contactsmodel.h \
+    contactsreader.h
