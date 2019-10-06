@@ -2,10 +2,12 @@ import QtQuick 2.0
 
 
 ListView {
-    spacing: 1
+    spacing: 2
 
     section.criteria: ViewSection.FirstCharacter
     section.property: "name"
-//    section.delegate:
+//    section.delegate: ListSection {
+
+//    }
 
 }

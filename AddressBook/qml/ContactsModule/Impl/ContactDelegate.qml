@@ -27,7 +27,7 @@ BaseListDelegate {
 
         Row {
             spacing: Style.smallSpacing
-            // roles:
+            // roles
             BaseText {
                 text: name
             }

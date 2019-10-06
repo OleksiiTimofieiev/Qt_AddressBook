@@ -9,7 +9,7 @@ BaseListView {
 
     delegate:  ContactDelegate{
         width: root.width
-        height: 100
+        height: 70
     }
 
 }
