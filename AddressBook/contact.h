@@ -10,7 +10,7 @@ public:
     Contact() = default;
 
     // workaroung for rValue and lValue
-    Contact(const QString & firstName, QString && secondName, QString phone);
+    Contact(QString firstName, QString  secondName, QString phone);
 
     QString phone() const;
 

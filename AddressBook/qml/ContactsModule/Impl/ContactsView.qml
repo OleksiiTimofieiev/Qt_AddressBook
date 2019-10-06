@@ -5,12 +5,11 @@ import Contacts 1.0
 BaseListView {
     id: root
     model: ContactsModel {
-
     }
 
     delegate:  ContactDelegate{
         width: root.width
-        height: 70
+        height: 100
     }
 
 }

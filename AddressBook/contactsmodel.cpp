@@ -33,6 +33,7 @@ QHash<int, QByteArray> ContactsModel::roleNames() const
 int ContactsModel::rowCount(const QModelIndex &parent) const
 {
     Q_UNUSED(parent) // cast to void
+
     return static_cast<int>(m_contacts.size());
 }
 
@@ -76,7 +77,7 @@ bool ContactsModel::updateContacts()
     {
         m_contacts.swap(contactsResult);
         // notify that data changed
-        emit dataChanged(createIndex(0,0), createIndex(static_cast<int>(m_contacts.size()), 0));
+        emit dataChanged(createIndex(0,0), createIndex(m_contacts.size(), 0));
     }
     return requestResult;
 }

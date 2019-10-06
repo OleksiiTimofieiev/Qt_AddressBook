@@ -9,7 +9,7 @@
 class ContactsReader
 {
 public:
-    std::pair<bool, std::vector<Contact> > requestContactsBrowse(void);
+    std::pair<bool, std::vector<Contact> > requestContactsBrowse();
 };
 
 #endif // CONTACTSREADER_H
